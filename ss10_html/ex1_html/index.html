@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+    <style>
+        .body{
+            background-color: #E5E5E5;
+            display:flex;
+            justify-content:space-evenly;
+        }
+        .body .child:nth-of-type(1){
+            font-family: "Mea Culpa", cursive;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        #higglight{
+            font-weight: bold;
+            margin:5px;
+        }
+        .body .child:nth-of-type(2){
+            display:flex;
+            padding:10px;
+        }
+        #pp{
+            margin:5px;
+        }
+        .body .child:nth-of-type(3){
+            margin-top:10px;
+            width:100px;
+            height:30px;
+            background-color: #8D939E;
+            border-radius: 10px;
+        }
+        #button{
+            text-align: center;
+            margin-top: 7px;
+            color:#E5E5E5;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="child">Sport News</div>
+        <div class="child">
+            <p id="higglight">Home</p>
+            <p id="pp">Category</p>
+            <p id="pp">Trending</p>
+            <p id="pp">Recent New</p>
+            <p id="pp">Clubs Ranking</p>
+            <p id="pp">Sport Article</p>
+        </div>
+        <div class="child">
+            <p id="button">Search</p>
+        </div>
+    </div>
+</body>
+</html>

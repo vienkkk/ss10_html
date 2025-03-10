@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: #F5E6D0;
+            width:800px;
+            height:500px;
+        }
+        .body .child:nth-of-type(1){
+            display:flex;
+            font-weight: bold;
+            flex-wrap: wrap;
+            justify-content: end;
+        }
+        .child1{
+            padding:10px;
+            margin:15px;
+        }
+        .body .child:nth-of-type(2){
+            display:flex;
+        }
+        .in_body{
+            width:400px;
+            margin:30px;
+        }
+        #highlight{
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .body .child:nth-of-type(3){
+            margin:30px;
+            width: 150px;
+            height: 40px;
+            background-color: #da6a6a;
+        }
+        #red{
+            color:aliceblue;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="child">
+            <div class="child1">Works</div>
+            <div class="child1">Blog</div>
+            <div class="child1">Contact</div>
+        </div>
+        <div class="child">
+            <div class="in_body">
+                <p id="highlight">Hi, I am John Creative Technologist</p>
+                <p>Amet minim mollit non deserunt allamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitiation veniam consequat sunt nostrud amet</p>
+            </div>
+            <img src="meo1.png">
+        </div>
+        <div class="child">
+            <p id="red">Download Resume</p>
+        </div>
+    </div>
+</body>
+</html>
